@@ -14,6 +14,7 @@ public struct IPAddress {
     
     public init(ipAddress: String) {
         self.ipAddress = ipAddress
+        var description: String = "Stadardizing the IPv4 Address format"
     }
     
 }
