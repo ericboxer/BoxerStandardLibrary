@@ -8,6 +8,9 @@
 
 import Foundation
 
-protocol Passthrough {
-    func passtrhough()
+
+/// A standard function that allows data to be passed through te communcations channel.
+public protocol Passthrough {
+    func passtrhough(data: Any)
 }
+

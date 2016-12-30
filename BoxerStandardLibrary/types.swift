@@ -8,26 +8,20 @@
 
 import Foundation
 
-public struct IPAddress {
-    
-    
-    var description: String {
-        return "Stadardizing the IPv4 Address format"
-    }
+
+/// Stadardize the IPv4 Address format
+public struct IPAddress{
     
     public var ipAddress: String
     
+// TODO: Validate IP
     public init(ipAddress: String) {
         self.ipAddress = ipAddress
-//        self.description = "Stadardizing the IPv4 Address format"
     }
     
+// TODO: Finish IP Validation code
+    func validateIPAddress(ipAddress: String) -> Bool {
+    let validIpAddressRegex = "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
+        return true
+    }
 }
-
-
-
-
-
-let myIP = IPAddress(ipAddress: "10.0.1.250")
-
-
