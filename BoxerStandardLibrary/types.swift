@@ -12,4 +12,8 @@ public struct IPAddress {
     
     public var ipAddress: String
     
+    public init(ipAddress: String) {
+        self.ipAddress = ipAddress
+    }
+    
 }
