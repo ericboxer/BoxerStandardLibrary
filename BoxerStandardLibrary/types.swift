@@ -10,11 +10,24 @@ import Foundation
 
 public struct IPAddress {
     
+    
+    var description: String {
+        return "Stadardizing the IPv4 Address format"
+    }
+    
     public var ipAddress: String
     
     public init(ipAddress: String) {
         self.ipAddress = ipAddress
-        var description: String = "Stadardizing the IPv4 Address format"
+//        self.description = "Stadardizing the IPv4 Address format"
     }
     
 }
+
+
+
+
+
+let myIP = IPAddress(ipAddress: "10.0.1.250")
+
+
