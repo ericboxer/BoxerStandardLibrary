@@ -14,3 +14,10 @@ public protocol Passthrough {
     func passtrhough(data: Any)
 }
 
+
+    
+func boxAdd(a: Int, b: Int) -> Int {
+        
+        return a + b
+        
+    }
