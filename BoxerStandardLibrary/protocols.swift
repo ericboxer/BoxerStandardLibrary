@@ -10,12 +10,14 @@ import Foundation
 
 
 /// A standard function that allows data to be passed through te communcations channel.
+
+// TODO: Change to generic type
 public protocol Passthrough {
-    func passtrhough(data: Any)
+    func passtrhough(data: String)
 }
 
 
-    
+
 func boxAdd(a: Int, b: Int) -> Int {
         
         return a + b
