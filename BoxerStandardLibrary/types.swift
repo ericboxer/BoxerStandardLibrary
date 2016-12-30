@@ -10,6 +10,6 @@ import Foundation
 
 public struct IPAddress {
     
-    var ipAddress: String
+    public var ipAddress: String
     
 }
