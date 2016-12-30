@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct IPAddress {
+public struct IPAddress {
     
     var ipAddress: String
     
