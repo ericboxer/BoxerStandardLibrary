@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073728931E180D0D00FA7173 /* manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728921E180D0D00FA7173 /* manipulation.swift */; };
+		073728941E180DBE00FA7173 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5109C1E1436EF00FA512F /* protocols.swift */; };
+		073728951E180DC200FA7173 /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D6B6F1E15FC1D00ECC4AC /* types.swift */; };
+		073728961E180DC600FA7173 /* manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728921E180D0D00FA7173 /* manipulation.swift */; };
+		073728971E180DC900FA7173 /* BoxerStandardLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B510941E14341C00FA512F /* BoxerStandardLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		073728991E18104700FA7173 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728981E18104700FA7173 /* enums.swift */; };
+		0737289A1E18104A00FA7173 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728981E18104700FA7173 /* enums.swift */; };
 		0777B3C01E16818400FCF451 /* protocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777B3BF1E16818400FCF451 /* protocolsTests.swift */; };
 		077D6B701E15FC1D00ECC4AC /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D6B6F1E15FC1D00ECC4AC /* types.swift */; };
 		077D6BA91E167EB600ECC4AC /* BoxerStandardLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B510911E14341C00FA512F /* BoxerStandardLibrary.framework */; };
@@ -25,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073728921E180D0D00FA7173 /* manipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = manipulation.swift; sourceTree = "<group>"; };
+		073728981E18104700FA7173 /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 		0777B3BF1E16818400FCF451 /* protocolsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolsTests.swift; sourceTree = "<group>"; };
 		077D6B6F1E15FC1D00ECC4AC /* types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
 		077D6B951E161AC700ECC4AC /* BoxerStandardLibrary-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "BoxerStandardLibrary-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +104,9 @@
 			children = (
 				B4B510941E14341C00FA512F /* BoxerStandardLibrary.h */,
 				B4B5109C1E1436EF00FA512F /* protocols.swift */,
+				073728981E18104700FA7173 /* enums.swift */,
 				077D6B6F1E15FC1D00ECC4AC /* types.swift */,
+				073728921E180D0D00FA7173 /* manipulation.swift */,
 				B4B510951E14341C00FA512F /* Info.plist */,
 			);
 			path = BoxerStandardLibrary;
@@ -108,6 +119,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073728971E180DC900FA7173 /* BoxerStandardLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073728941E180DBE00FA7173 /* protocols.swift in Sources */,
+				073728961E180DC600FA7173 /* manipulation.swift in Sources */,
+				0737289A1E18104A00FA7173 /* enums.swift in Sources */,
+				073728951E180DC200FA7173 /* types.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,8 @@
 			files = (
 				B4B5109D1E1436EF00FA512F /* protocols.swift in Sources */,
 				077D6B701E15FC1D00ECC4AC /* types.swift in Sources */,
+				073728991E18104700FA7173 /* enums.swift in Sources */,
+				073728931E180D0D00FA7173 /* manipulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

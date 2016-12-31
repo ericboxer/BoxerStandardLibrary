@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import BoxerStandardLibrary
+//@testable import BoxerStandardLibrary
 
 
 
@@ -21,21 +21,6 @@ class protocolsTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
-    }
-
-    func testAdd() {
-        
-        let a = 5
-        let b = 6
-        
-        let c = 11
-        
-        
-        XCTAssertEqual(boxAdd(a: a, b: b), c)
-        
-        
-        
-        
     }
 
 }
