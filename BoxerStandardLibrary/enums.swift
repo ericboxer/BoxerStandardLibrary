@@ -9,7 +9,7 @@
 import Foundation
 
 
-enum onOff {
+public enum onOff {
     case off
     case on
 }
