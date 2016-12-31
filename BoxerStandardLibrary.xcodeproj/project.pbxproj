@@ -8,12 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		073728931E180D0D00FA7173 /* manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728921E180D0D00FA7173 /* manipulation.swift */; };
-		073728941E180DBE00FA7173 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5109C1E1436EF00FA512F /* protocols.swift */; };
-		073728951E180DC200FA7173 /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D6B6F1E15FC1D00ECC4AC /* types.swift */; };
-		073728961E180DC600FA7173 /* manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728921E180D0D00FA7173 /* manipulation.swift */; };
-		073728971E180DC900FA7173 /* BoxerStandardLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B510941E14341C00FA512F /* BoxerStandardLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		073728991E18104700FA7173 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728981E18104700FA7173 /* enums.swift */; };
-		0737289A1E18104A00FA7173 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728981E18104700FA7173 /* enums.swift */; };
 		0777B3C01E16818400FCF451 /* protocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777B3BF1E16818400FCF451 /* protocolsTests.swift */; };
 		077D6B701E15FC1D00ECC4AC /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D6B6F1E15FC1D00ECC4AC /* types.swift */; };
 		077D6BA91E167EB600ECC4AC /* BoxerStandardLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B510911E14341C00FA512F /* BoxerStandardLibrary.framework */; };
@@ -36,7 +31,6 @@
 		073728981E18104700FA7173 /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 		0777B3BF1E16818400FCF451 /* protocolsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolsTests.swift; sourceTree = "<group>"; };
 		077D6B6F1E15FC1D00ECC4AC /* types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
-		077D6B951E161AC700ECC4AC /* BoxerStandardLibrary-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "BoxerStandardLibrary-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		077D6BA41E167EB600ECC4AC /* BoxerStandardLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxerStandardLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		077D6BA81E167EB600ECC4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4B510911E14341C00FA512F /* BoxerStandardLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxerStandardLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,13 +40,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		077D6B911E161AC700ECC4AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		077D6BA11E167EB600ECC4AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				B4B510911E14341C00FA512F /* BoxerStandardLibrary.framework */,
-				077D6B951E161AC700ECC4AC /* BoxerStandardLibrary-iOS.framework */,
 				077D6BA41E167EB600ECC4AC /* BoxerStandardLibraryTests.xctest */,
 			);
 			name = Products;
@@ -115,14 +101,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		077D6B921E161AC700ECC4AC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				073728971E180DC900FA7173 /* BoxerStandardLibrary.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4B5108E1E14341C00FA512F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,24 +112,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		077D6B941E161AC700ECC4AC /* BoxerStandardLibrary-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 077D6B9A1E161AC700ECC4AC /* Build configuration list for PBXNativeTarget "BoxerStandardLibrary-iOS" */;
-			buildPhases = (
-				077D6B901E161AC700ECC4AC /* Sources */,
-				077D6B911E161AC700ECC4AC /* Frameworks */,
-				077D6B921E161AC700ECC4AC /* Headers */,
-				077D6B931E161AC700ECC4AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BoxerStandardLibrary-iOS";
-			productName = "BoxerStandardLibrary-iOS";
-			productReference = 077D6B951E161AC700ECC4AC /* BoxerStandardLibrary-iOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		077D6BA31E167EB600ECC4AC /* BoxerStandardLibraryTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 077D6BAC1E167EB600ECC4AC /* Build configuration list for PBXNativeTarget "BoxerStandardLibraryTests" */;
@@ -198,12 +158,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Eric Boxer";
 				TargetAttributes = {
-					077D6B941E161AC700ECC4AC = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = UDW2GSRXJ2;
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
-					};
 					077D6BA31E167EB600ECC4AC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = UDW2GSRXJ2;
@@ -230,20 +184,12 @@
 			projectRoot = "";
 			targets = (
 				B4B510901E14341C00FA512F /* BoxerStandardLibrary */,
-				077D6B941E161AC700ECC4AC /* BoxerStandardLibrary-iOS */,
 				077D6BA31E167EB600ECC4AC /* BoxerStandardLibraryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		077D6B931E161AC700ECC4AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		077D6BA21E167EB600ECC4AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,17 +207,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		077D6B901E161AC700ECC4AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				073728941E180DBE00FA7173 /* protocols.swift in Sources */,
-				073728961E180DC600FA7173 /* manipulation.swift in Sources */,
-				0737289A1E18104A00FA7173 /* enums.swift in Sources */,
-				073728951E180DC200FA7173 /* types.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		077D6BA01E167EB600ECC4AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,56 +237,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		077D6B9B1E161AC700ECC4AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UDW2GSRXJ2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "BoxerStandardLibrary-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericboxer.BoxerStandardLibrary-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		077D6B9C1E161AC700ECC4AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UDW2GSRXJ2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "BoxerStandardLibrary-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericboxer.BoxerStandardLibrary-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		077D6BAD1E167EB600ECC4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,15 +414,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		077D6B9A1E161AC700ECC4AC /* Build configuration list for PBXNativeTarget "BoxerStandardLibrary-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				077D6B9B1E161AC700ECC4AC /* Debug */,
-				077D6B9C1E161AC700ECC4AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		077D6BAC1E167EB600ECC4AC /* Build configuration list for PBXNativeTarget "BoxerStandardLibraryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
