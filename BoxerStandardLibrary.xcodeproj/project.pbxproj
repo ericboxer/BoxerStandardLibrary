@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0718C2271E2CE41F0004E16A /* arrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718C2261E2CE41F0004E16A /* arrayExtensions.swift */; };
 		073728931E180D0D00FA7173 /* manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728921E180D0D00FA7173 /* manipulation.swift */; };
 		073728991E18104700FA7173 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073728981E18104700FA7173 /* enums.swift */; };
 		0777B3C01E16818400FCF451 /* protocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777B3BF1E16818400FCF451 /* protocolsTests.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0718C2261E2CE41F0004E16A /* arrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arrayExtensions.swift; sourceTree = "<group>"; };
 		073728921E180D0D00FA7173 /* manipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = manipulation.swift; sourceTree = "<group>"; };
 		073728981E18104700FA7173 /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 		0777B3BF1E16818400FCF451 /* protocolsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolsTests.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				073728981E18104700FA7173 /* enums.swift */,
 				077D6B6F1E15FC1D00ECC4AC /* types.swift */,
 				073728921E180D0D00FA7173 /* manipulation.swift */,
+				0718C2261E2CE41F0004E16A /* arrayExtensions.swift */,
 				B4B510951E14341C00FA512F /* Info.plist */,
 			);
 			path = BoxerStandardLibrary;
@@ -223,6 +226,7 @@
 				077D6B701E15FC1D00ECC4AC /* types.swift in Sources */,
 				073728991E18104700FA7173 /* enums.swift in Sources */,
 				073728931E180D0D00FA7173 /* manipulation.swift in Sources */,
+				0718C2271E2CE41F0004E16A /* arrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
